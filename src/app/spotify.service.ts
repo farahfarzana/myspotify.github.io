@@ -10,7 +10,7 @@ export class SpotifyService {
     let headers = new HttpHeaders();
     headers = headers.append(
       "Authorization",
-      "Bearer BQAfQl4MFyEQfrKkt1APiu5hmoAx9Oid94LASt4BL8UHdUhW1Hbso_bXXBN2AZXropwwyzM2sTAOpR8k_NCEg_hO8BwJK8nv4CYUho3LbLFT_1cDkLQWWuqC1qdtVOIHSuI34HP2oXmky3AMdUw3_JHoJr-fjOV4VXBQarIt8vpE2lUXBkQNbUcaFVPrZnEeJPVAlK0YYWGKDveElJU76SG0d5b7-P5gEsEuUeKYG57UIKBGM8nJatO60Y8ajEOhbNe-UqUfezcNjOi-rjBNHb0gsxWM7L2Jrwg"
+      "Bearer BQCeLR2AuR6IXgj0BaR_8mXFwCcWt4kKy3dLxC4gj8-Tw4Ziexu1c64zcROfvlDPiFn2vKOvIwdj2yrgj6UM1S_CPZl1ftbYbwiWpWX2eDPa6li1ZbqDEfyklevOYEP9EXVmHC6Jn1oWgO2unw1GaxgNq_Juh82hQUqemcT5UqcUETF6aVV8ioS2JW60bZS0WgrEr9s6wasIOqbuKNTZxZMrsSN84w1G4vo1_guW77vVJwAqz-ik59UJC7l_dZxkgq_MVVXjK6csgLJDheypTh364Yz5GyFSBj8"
     );
     return this._http.get(url, { headers });
   }
